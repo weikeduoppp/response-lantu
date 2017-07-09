@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/*结构要写对   @media screen and () and ()  空格也需要!!!*/
+
+/* 1200 ~ 1500*/
+    @media screen and (max-width: 1500px) and (min-width: 1200px) {
+        #banner {
+            height: 500px;
+        }
+        #banner .b-part .part1 .img1 {
+            top: 300px;
+            left: 50px;
+        }
+        #banner .b-part .part1 .img2 {
+            width: 640px;
+            height: 440px;
+        }
+        #banner .b-part .part2 .img1 {
+            top: 300px;
+            left: 50px;
+        }
+        #banner .b-part .part2 .img2 {
+            top: 35px;
+            right: 100px;
+            width: 630px;
+            height: 450px;
+        }
+        #banner .b-part .part3 .img1 {
+            top: 100px;
+            right: 100px;
+        }
+        #banner .b-part .part3 .img2 {
+            top: 0;
+            left: 45px;
+            width: 640px;
+            height: 490px;
+        }
+        #classic {
+            height: 790px;
+        }
+        #classic .c-main {
+            width: 1175px;
+            height: 475px;
+            margin: 90 auto 0;
+        }
+        #classic .c-main ul li {
+            width: 193px;
+            height: 317px;
+        }
+        #classic .c-main ul li.mid {
+            width: 288px;
+            height: 475px;
+        }
+        #classic .c-main ul li.slide {
+            width: 240px;
+            height: 396px;
+        }
+
+    }
+
+/* 900 ~ 1200 */
+    @media screen and (max-width: 1200px) and (min-width: 900px) {
+
+        #banner {
+            height: 450px;
+        }
+        #banner .b-part .part1 .img1 {
+            top: 300px;
+            left: 50px;
+        }
+        #banner .b-part .part1 .img2 {
+            width: 500px;
+            height: 380px;
+            right: 40px;
+        }
+        #banner .b-part .part2 .img1 {
+            top: 200px;
+            left: 50px;
+        }
+        #banner .b-part .part2 .img2 {
+            top: 15px;
+            right: 50px;
+            width: 540px;
+            height: 390px;
+        }
+        #banner .b-part .part3 .img1 {
+            top: 100px;
+            right: 50px;
+            width: 270px;
+            height: 90px;
+        }
+        #banner .b-part .part3 .img2 {
+            top: 20px;
+            left: 30px;
+            width: 500px;
+            height: 400px;
+        }
+        #classic {
+            height: 740px;
+        }
+        #classic .c-main {
+            width: 876px;
+            height: 356px;
+            margin: 90 auto 0;
+        }
+        #classic .c-main ul li {
+            width: 144px;
+            height: 238px;
+        }
+        #classic .c-main ul li.slide {
+            width: 180px;
+            height: 297px;
+        }
+        #classic .c-main ul li.mid {
+            width: 216px;
+            height: 356px;
+        }
+        #classic .btn div {
+            top: 55%;
+        }
+    }
+
+/*  ~900*/
+    @media screen and (max-width: 900px){
+
+        #banner {
+            margin-top: 113px;
+        }
+        #banner .b-part .part1 .img1 {
+            left: 50%;
+            width: 200px;
+            height: 80px;
+            margin-left: -100px;
+        }
+        #banner .b-part .part1 .img2 {
+            right: 50%;
+            width: 330px;
+            height: 250px;
+            margin-right: -165px;
+        }
+        #banner .b-part .part2 .img1 {
+            width: 180px;
+            height: 80px;
+        }
+        #banner .b-part .part3 .img1 {
+            width: 200px;
+            height: 80px;
+        }
+        #classic .c-title {
+            width: 350px;
+        }
+        #classic .tab {
+            display: none;
+        }
+        #partner {
+            height: auto;
+        }
+        #partner .p-title {
+            width: 350px;
+        }
+        #partner .p-list {
+            width: 216px;
+            height: auto;
+            margin: 70px auto;
+        }
+        #partner .p-list li {
+            float: none;
+            margin: 30px 0;
+        }
+
+    }
+
+/* 600 ~ 900 */
+    @media screen and (max-width: 900px) and (min-width: 600px){
+
+        #banner {
+            height: 350px;
+        }
+        #banner .b-part .part1 .img1 {
+            top: 270px;
+        }
+        #banner .b-part .part1 .img2 {
+            top: 10px;
+        }
+        #banner .b-part .part2 .img1 {
+            top: 200px;
+            left: 30px;
+        }
+        #banner .b-part .part2 .img2 {
+            top: 40px;
+            right: 15px;
+            width: 370px;
+            height: 270px;
+        }
+        #banner .b-part .part3 .img1 {
+            top: 100px;
+            right: 50px;
+        }
+        #banner .b-part .part3 .img2 {
+            top: 50px;
+            left: 20px;
+            width: 350px;
+            height: 280px;
+        }
+        #classic {
+            height: 690px;
+        }
+        #classic .c-main {
+            width: 600px;
+            height: 356px;
+            margin: 80 auto 0;
+        }
+        #classic .c-main ul li {
+            width: 144px;
+            height: 238px;
+        }
+        #classic .c-main ul li.slide {
+            width: 180px;
+            height: 297px;
+        }
+        #classic .c-main ul li.mid {
+            width: 216px;
+            height: 356px;
+        }
+
+    }
+
+/*  ~ 600 */
+    @media screen and (max-width: 600px) {
+
+        #banner {
+            min-width: 350px;
+            height: 400px;
+        }
+        #banner .b-part .part1 .img1 {
+            top: 300px;
+        }
+        #banner .b-part .part1 .img2 {
+            top: 28px;
+        }
+        #banner .b-part .part2 .img1 {
+            top: 260px;
+            left: 50%;
+            margin-left: -90px;
+        }
+        #banner .b-part .part2 .img2 {
+            top: 25px;
+            left: 50%;
+            margin-left: -150px;
+            width: 300px;
+            height: 200px;
+        }
+        #banner .b-part .part3 .img1 {
+            top: 260px;
+            right: 50%;
+            margin-right: -90px;
+        }
+        #banner .b-part .part3 .img2 {
+            top: 5px;
+            left: 50%;
+            margin-left: -150px;
+            width: 300px;
+            height: 240px;
+        }
+        #classic {
+            height: 690px;
+        }
+        #classic .c-title {
+            width: 340px;
+        }
+        #classic .c-main {
+            width: 200px;
+            height: 325px;
+            margin: 90 auto 0;
+        }
+        #classic .c-main ul li {
+            width: 144px;
+            height: 238px;
+        }
+        #classic .c-main ul li.slide {
+            width: 180px;
+            height: 297px;
+        }
+        #classic .c-main ul li.mid {
+            width: 198px;
+            height: 325px;
+        }
+        #classic .btn div {
+            top: 55%;
+        }
+        #partner {
+            min-width: 350px;
+        }
+        #partner .p-list li a img {
+            width: 80%;
+        }
+        #partner .p-list li img.center{
+            width: 50%;
+        }
+
+    }

@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/*header start*/
+
+
+
+
+/*header end*/
+
+
+/*banner start*/
+
+#banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 850px;
+    margin-top: 71px;
+}
+#banner .b-part {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#banner .b-part .part {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#banner .b-part .part1 {
+    /*display: block;*/
+    background: url("../img/index/banner/bg1-1.png") no-repeat center;
+    background-size: cover;
+}
+#banner .b-part .part1 .img1 {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    width: 300px;
+    height: 125px;
+    background: url("../img/index/banner/bg1-2.png") 0 0/100% 100%;
+}
+#banner .b-part .part1 .img2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 970px;
+    height: 730px;
+    background: url("../img/index/banner/bg1-3.png") 0 0/100% 100%;
+}
+#banner .b-part .part2 {
+    background: radial-gradient(rgb(0,173,239),rgb(0,82,124));
+}
+#banner .b-part .part .img {
+    position: absolute;
+    width: 300px;
+    height: 120px;
+}
+#banner .b-part .part2 .img1 {
+    top: 500px;
+    left: 100px;
+}
+#banner .b-part .part .img p {
+    width: 100%;
+    margin: 10px 0;
+}
+#banner .b-part .part .img p img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#banner .b-part .part2 .img2 {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    width: 930px;
+    height: 635px;
+    background: url("../img/index/banner/bg2-4.png") 0 0/100% 100%;
+}
+#banner .b-part .part3 {
+    background: url("../img/index/banner/bg3-1.jpg") no-repeat center bottom;
+    background-size: cover;
+    /*以最小比例显示全部图像*/
+}
+#banner .b-part .part3 .img1 {
+    top: 200px;
+    right: 200px;
+}
+#banner .b-part .part3 .img2 {
+    position: absolute;
+    top: 115px;
+    left: 70px;
+    width: 777px;
+    height: 600px;
+    background: url("../img/index/banner/bg3-2.png") 0 0/100% 100%;
+}
+#banner .b-tab {
+    position: absolute;
+    left: 50%;
+    bottom: 27px;
+    width: 62px;
+    height: 10px;
+    margin-left: -30px;
+}
+#banner .b-tab li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: #006597;
+    border-radius: 100%;
+    cursor: pointer;
+}
+#banner .b-tab li.active {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+    border: 2px solid #b3cd35;
+}
+
+
+/*banner end*/
+
+
+/*classic start*/
+#classic {
+    position: relative;
+    width: 100%;
+    height: 920px;
+    background : url("../img/index/classic/bg.png") no-repeat center;
+}
+#classic .c-title {
+    width: 521px;
+    height: 110px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: url("../img/index/classic/line.png") no-repeat center bottom;
+}
+#classic .c-title img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+#classic .c-title p {
+    padding: 25px 0;
+    text-align: center;
+    font-size: 18px;
+}
+#classic .c-main {
+    overflow: hidden;
+    position: relative;
+    width: 85%;
+    height: 593px;
+    margin: 100px auto 0;
+}
+#classic .c-main ul {
+    /*水平居中  通过绝对定位*/
+    position: absolute;
+    left: 50%;
+    width: 500%;
+    height: 100%;
+    opacity: 0;
+}
+#classic .c-main ul li {
+    /*垂直居中*/
+    float: left;
+    position: relative;
+    top: 50%;
+    width: 240px;
+    height: 395px;
+    transform: translate(0,-50%);
+
+    /*
+    2.
+        transform: scale(.8);  通过缩放来控制大小.   控制整体li大小.
+            scale(.8)  scale(1)  scale(1.2)
+        给ul加padding来控制垂直居中.
+    */
+    transition: all .3s;
+}
+#classic .c-main ul li.mid {
+    width: 288px;
+    height: 475px;
+}
+#classic .c-main ul li.slide {
+    width: 240px;
+    height: 396px;
+}
+#classic .c-main ul li img {
+    width: 100%;
+    height: 100%;
+}
+#classic .btn div{
+    position: absolute;
+    top: 60%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+}
+#classic .btn div.left {
+    left: 4%;
+}
+#classic .btn div.right {
+    right: 4%;
+}
+#classic .tab {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    width: 320px;
+    height: 15px;
+    margin-left: -150px;
+}
+#classic .tab li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    background: #78aec7;
+    border-radius: 50%;
+    opacity: .8;
+}
+#classic .tab li.mid {
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    border: 2px solid #a7c31e;
+}
+#classic .tab li.slide {
+    background: #6C9BE0;
+}
+
+/*classic end*/
+
+/* partner start */
+#partner {
+    width:　100%;
+    height: 400px;
+}
+#partner .p-title {
+    width: 521px;
+    height: 110px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: url("../img/index/partner/line.png") no-repeat center bottom;
+}
+#partner .p-title img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+#partner .p-title p {
+    padding: 25px 0;
+    text-align: center;
+    font-size: 18px;
+}
+#partner .p-list {
+    width: 890px;
+    height: 50px;
+    margin: 100px auto;
+}
+#partner .p-list li {
+    float: left;
+    margin: 0 55px;
+}
+#partner .p-list li a,#partner .p-list li a img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* partner end */
+

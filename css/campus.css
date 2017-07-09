@@ -1,0 +1,247 @@
+
+#content {
+    margin-top: 71px;
+}
+#part1 {
+    position: relative;
+    background: url("../img/campus/bg1.jpg") no-repeat center center/cover;
+}
+#part1 .p1-title {
+    width: 260px;
+    height: 120px;
+    padding: 12% 0 0 25%;
+    color: #fff;
+}
+#part1 .p1-title .title {
+    font-size: 42px;
+}
+#part1 .p1-title .dec {
+    line-height: 40px;
+    text-align: right;
+    font-size: 18px;
+}
+#part1 .bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: rgba(255,255,255,.4);
+}
+
+.part .btn {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    margin-top: -23px;
+    background: url(../img/campus/a_d.png) no-repeat;
+    cursor: pointer;
+}
+
+#content .bg {
+    width: 100%;
+    height: 430px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*随滚动条滚动.  默认是不随.scroll*/
+}
+#content .bg1 {
+    background-image: url("../img/campus/bg2.jpg");
+}
+#content .bg2 {
+    background-image: url("../img/campus/bg3.jpg");
+}
+#content .bg3 {
+    background-image: url("../img/campus/bg4.jpg");
+}
+#content .bg4 {
+    background-image: url("../img/campus/bg5.jpg");
+}
+#content .bg5 {
+    background-image: url("../img/campus/bg6.jpg");
+}
+
+.part2,#part3 {
+    position: relative;
+    width: 100%;
+    height: 530px;
+    background: #F0F2F5;
+}
+.part2 .wrap {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.part2 .wrap .left {
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin-top: 190px;
+    font-size: 18px;
+    color: #0080BA;
+}
+.part2 .wrap .left .p1 {
+    font-size: 40px;
+}
+.part2 .wrap .left .p2,.part2 .wrap .left .p3 {
+    line-height: 40px;
+}
+.part2 .wrap .right{
+    float: right;
+    width: 530px;
+    height: 430px;
+    margin-top: 50px;
+}
+.part2 .wrap .right .box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.part2 .wrap .right .img  {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.part2 .wrap .right .p2 {
+    right: 32px;
+    transform-origin: center center;
+    animation: round 20s linear infinite;
+}
+.part2 .wrap .right .img img {
+    display: block;
+}
+@keyframes round {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+.part2 .btn,#part3 .btn{
+    top: auto;
+    bottom: -23px;
+}
+
+#part3 .wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+#part3 .wrap .first {
+    float: right;
+    width: 240px;
+    height: 150px;
+    margin-top: 190px;
+    font-size: 18px;
+    color: #0080BA;
+}
+#part3 .wrap .first .p1 {
+    font-size: 40px;
+    line-height: 70px;
+}
+#part3 .wrap .first .p2 {
+    line-height: 35px;
+}
+#part3 .wrap .center {
+    float: left;
+    position: relative;
+    width: 324px;
+    height: 324px;
+    margin-top: 103px;
+}
+#part3 .wrap .center ul li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/campus/m5.png");
+    background-size: cover;
+}
+#part3 .wrap .center ul li.active {
+    display: block;
+}
+/*#part3 .wrap .center ul li:nth-of-type(2){
+    display: block;
+    background-position: 0 -100%;
+}*/
+#part3 .wrap .third {
+    float: left;
+    margin: 103px 0 0 140px;
+}
+
+#part3 .wrap .third li {
+    line-height: 35px;
+    font-size: 24px;
+    color: #B6D230;
+    list-style: disc;
+    cursor: pointer;
+}
+#part3 .wrap .third li.active span {
+    font-size: 28px;
+}
+#part3 .wrap .third li span {
+    line-height: 35px;
+    font-size: 20px;
+    color: #0080BA;
+    transition: .3s linear;
+}
+
+#part4 .wrap .right .pointer {
+    right: 79px;
+    transform: translate(-50%,-66%);
+    transform-origin: 26% 66%;
+    animation: Round 60s linear infinite;
+}
+@keyframes Round {
+    0% {
+        transform: translate(-50%,-66%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%,-66%) rotate(360deg);
+    }
+}
+
+#part5 .wrap .Right {
+    float: right;
+}
+#part5 .wrap .Left {
+    float: left;
+}
+#part5 .wrap .Left .p1{
+    transform: translateY(-43%);
+}
+#part5 .wrap .Left .p2 {
+    right: 158px;
+}
+
+#part6 .wrap .left .list {
+    width: 220px;
+    height: 80px;
+}
+#part6 .wrap .left .list li {
+    float: left;
+    width: 40px;
+    height: 100%;
+    line-height: 35px;
+    margin: 7px;
+    text-align: center;
+}
+#part6 .wrap .left .list li:first-child {
+    margin-left: 0;
+}
+#copy.bg {
+    width: 100%;
+    background: radial-gradient(#00adef,#017aaf);
+}
